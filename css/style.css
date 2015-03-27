@@ -7,8 +7,8 @@ body{
 	background:  url(../images/home.png) 50% 0 no-repeat fixed; 
     max-width: 1920px; 
     position: relative; 
-	height: 550px;
-	background-size: auto 550px; 
+	height: 530px;
+	background-size: auto 530px; 
 
 }
 
@@ -68,10 +68,18 @@ body{
 #profileImage
 {
  width: 240px;
- margin-bottom: -10px;
+ margin-bottom: 15px;
 
--webkit-clip-path: polygon(0px 200px,240px 200px,120px 0px);
-clip-path: url("#clip1");
+ /*Chrome,Safari*/
+-webkit-clip-path: url(../images/clip.svg);
+
+/* Firefox*/
+clip-path: url(../images/clip.svg#svgClip);
+
+/* iOS support */
+ -webkit-mask: url(../images/clip.svg);
+ 
+
 }
 
 a 

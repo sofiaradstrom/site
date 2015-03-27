@@ -68,7 +68,7 @@ body{
 #profileImage
 {
  width: 240px;
- margin-bottom: 15px;
+ margin-bottom: 20px;
 
  /*Chrome,Safari*/
 -webkit-clip-path: url(../images/clip.svg);

@@ -29,7 +29,7 @@ body{
     width: 100%; 
     max-width: 1920px; 
     position: relative;
-    box-shadow: 0 0 50px rgba(0,0,0,0.4);
+   
 	height: auto;
 
 }
@@ -115,7 +115,7 @@ a
 {
 	width: 50px;
 	fill:white;
-	padding-top: 20px;
+	padding-top: 35px;
 
 }
 

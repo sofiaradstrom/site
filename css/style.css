@@ -111,11 +111,16 @@ a
   width: 100%;
 }
 
+#triangleContainer
+{
+	margin-top: 35px;
+}
+
 #triangle 
 {
 	width: 50px;
 	fill:white;
-	margin-top: 35px;
+
 
 }
 

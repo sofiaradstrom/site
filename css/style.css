@@ -2,9 +2,9 @@ body{
 	margin:0;
 	padding:0;
 }
-
-#home { 
-	background:  url(../images/home.png) 50% 0 no-repeat fixed; 
+#home  
+{
+	background: url(../images/home.png) 40% 0 no-repeat fixed; 
     max-width: 1920px; 
     position: relative; 
 	height: 530px;
@@ -147,11 +147,13 @@ a
 	{ 
 		height: 770px;
 		background-size: auto 770px;
+		backround-position-x: 50%;
 	}
 	
 	#home article 
 	{
 		font-size: 70px;
+		top: 50%;
 	}
 	
 	#triangle 

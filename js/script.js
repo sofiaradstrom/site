@@ -5,14 +5,24 @@ $(document).ready(function(){
 //		console.log("tick");
 //	},1000);
 	
-	var triangebtn = document.getElementById("triangle");
-    triangebtn.onclick = function (e) {
+	var triangebtndown = document.getElementById("triangle");
+    triangebtndown.onclick = function (e) {
 		var $len = $('#about').offset().top;
 		
         $('html, body').animate({
             scrollTop: $len
         }, 1000);
     };
+	
+	var triangebtnup = document.getElementById("profileImage");
+    triangebtnup.onclick = function (e) {
+		var $len = 0;
+		
+        $('html, body').animate({
+            scrollTop: $len
+        }, 1000);
+    };
+	
 	
 	// Cache the Window object
 	$window = $(window);

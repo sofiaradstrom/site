@@ -12,7 +12,16 @@ body{
 
 }
 
-#home article 
+#hero
+{
+    max-width: 1920px; 
+    position: relative; 
+	height: 530px;
+	background-position-x: 40% !important ;
+}
+
+
+#hero article 
 { 
 	 top: 40%;
 	 position: absolute; 
@@ -29,7 +38,6 @@ body{
     width: 100%; 
     max-width: 1920px; 
     position: relative;
-   
 	height: auto;
 
 }
@@ -128,7 +136,7 @@ a
 
 @media (min-width: 600px) 
 {
-	#home article 
+	#hero article 
 	{
 		font-size: 55px;
 	}
@@ -143,17 +151,15 @@ a
 @media (min-width: 900px) 
 {
 
-	#home 
+	#hero 
 	{ 
 		height: 770px;
-		background-size: auto 770px;
-		backround-position-x: 50%;
 	}
 	
-	#home article 
+	#hero article 
 	{
 		font-size: 70px;
-		top: 45%;
+		top: 40%;
 	}
 	
 	#triangle 
@@ -180,10 +186,9 @@ a
  
 @media (min-width: 1390px) 
 {
-	#home 
+	#hero 
 	{ 
 		height: 100%;
-		background-size: 100% auto;
 	}
 	
 		#about article 

@@ -2,21 +2,13 @@ body{
 	margin:0;
 	padding:0;
 }
-#home  
-{
-	background: url(../images/home.png) 40% 0 no-repeat fixed; 
-    max-width: 1920px; 
-    position: relative; 
-	height: 530px;
-	background-size: auto 530px; 
 
-}
 
 #hero
 {
     max-width: 1920px; 
     position: relative; 
-	height: 530px;
+	height: 100%;//530px;
 	background-position-x: 40% !important ;
 }
 
@@ -39,6 +31,7 @@ body{
     max-width: 1920px; 
     position: relative;
 	height: auto;
+	min-height: 100%;
 
 }
 
@@ -153,7 +146,7 @@ a
 
 	#hero 
 	{ 
-		height: 770px;
+		//height: 770px;
 	}
 	
 	#hero article 

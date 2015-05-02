@@ -38,7 +38,7 @@ body{
 #about article 
 { 
 	width: 90%; 
-	max-width: 450px;
+	max-width: 500px;
 	font-family: open sans;
 	font-weight:100;
 	text-align: center;
@@ -163,7 +163,7 @@ a
 	#about article 
 	{ 
 		padding-top: 70px;
-		padding-bottom: 180px;
+		padding-bottom: 120px;
 	}
 	
 	#profileImage

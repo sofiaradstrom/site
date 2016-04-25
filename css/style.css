@@ -3,7 +3,6 @@ body{
 	padding:0;
 }
 
-
 #hero
 {
     max-width: 1920px; 
@@ -43,27 +42,23 @@ body{
 	padding-top: 30px;
 	margin: 0 auto;
 	padding-bottom: 70px;
-
 }
-
 
 #about h1 
 {
 	font-weight: 300;
 	font-size: 24px;
 	padding-bottom: 18px;
-	
 }
 
 #about h2
 {
-
 	text-transform: uppercase;
     letter-spacing: 2;
     font-size: 11px;
     line-height: 1.5em;
 	padding-bottom: 6px;
-	font-weight:400px;
+	font-weight:400;
 }
   
 #about p
@@ -75,24 +70,15 @@ body{
 
 #profileImage
 {
- width: 240px;
  margin-bottom: 20px;
-
-/*Chrome,Safari*/
--webkit-clip-path: polygon(0px 200px,240px 200px,120px 0px);
-
-/* Firefox*/
-clip-path: url(../images/clip.svg#svgClip);
-
-
- 
+ border-radius: 70px;
+ width:140px
 }
 
 a 
 {
   text-decoration: none;
 }
-
 
 .social 
 {
@@ -101,10 +87,8 @@ a
 	margin-top:6px;
 }
 
-
 #footer 
 {
-
   height: 30px;
   background: #4C4C4C;
   position: absolute;
@@ -121,11 +105,7 @@ a
 {
 	width: 50px;
 	fill:white;
-
-
 }
-
-
 
 @media (min-width: 600px) 
 {
@@ -139,10 +119,8 @@ a
 	}
 }
 
-
 @media (min-width: 900px) 
 {
-
 	#hero 
 	{ 
 		//height: 770px;
@@ -175,7 +153,6 @@ a
 	}
 }
  
- 
 @media (min-width: 1390px) 
 {
 	#hero 
@@ -189,4 +166,3 @@ a
 		padding-bottom: 270px;
 	}
 }
-

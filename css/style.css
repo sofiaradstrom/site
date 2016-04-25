@@ -57,12 +57,20 @@ body{
 	
 }
 
+#about h2
+{
+
+	text-transform: uppercase;
+    letter-spacing: 2;
+    font-size: 11px;
+    line-height: 1.5em;
+	padding-bottom: 6px;
+}
   
 #about p
 {
 	font-size: 13px;
-	line-height: 1.5;	
-	padding-bottom: 11px;
+	line-height: 1.5em;	 
 }
 
 
@@ -71,16 +79,14 @@ body{
  width: 240px;
  margin-bottom: 20px;
 
- /*Chrome,Safari*/
--webkit-clip-path: url(../images/clip.svg);
+/*Chrome,Safari*/
+-webkit-clip-path: polygon(0px 200px,240px 200px,120px 0px);
 
 /* Firefox*/
 clip-path: url(../images/clip.svg#svgClip);
 
-/* iOS support */
- -webkit-mask: url(../images/clip.svg);
- 
 
+ 
 }
 
 a 
@@ -91,16 +97,11 @@ a
 
 .social 
 {
-    margin: 13px 9px; 
 	font-size: 18px;
-
+	margin-bottom: 22px;
+	margin-top:6px;
 }
 
-
-#socialWrapper 
-{
- margin-top: 25px;
-}
 
 #footer 
 {
@@ -136,7 +137,6 @@ a
 	.social 
 	{
 		display: inline-block;
-		margin: 6px 9px; 
 	}
 }
 
